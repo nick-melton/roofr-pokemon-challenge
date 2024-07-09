@@ -1,0 +1,50 @@
+.hero-stats {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.stats-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  z-index: 2;
+}
+
+.stats-block h1 {
+  color: rgb(97, 97, 97);
+}
+
+.stats {
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.stats-green {
+  background-color: rgb(174, 249, 174);
+}
+
+.stats-blue {
+  background-color: aqua;
+}
+
+.triangle {
+  height: 40px;
+  width: 40px;
+  rotate: 45deg;
+  border: 2px solid black;
+  z-index: 1;
+  margin-left: -20px;
+}
+
+.right-aligned-triangle {
+  margin-right: -20px;
+}

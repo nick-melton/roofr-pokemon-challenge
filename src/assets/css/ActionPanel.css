@@ -1,0 +1,23 @@
+.action-panel {
+  margin-top: 80px;
+}
+
+.title {
+  color: rgb(94, 94, 94);
+}
+
+.log-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  max-height: 50px;
+  margin-left: 20px;
+  min-width: 150px;
+}

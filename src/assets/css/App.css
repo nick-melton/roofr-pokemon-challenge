@@ -1,0 +1,11 @@
+body {
+  padding: 0 40px 80px 40px;
+}
+
+.reverse-block {
+  flex-direction: row-reverse !important;
+}
+
+.reversed-img {
+  transform: scaleX(-1);
+}
